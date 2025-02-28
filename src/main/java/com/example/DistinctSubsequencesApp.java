@@ -8,6 +8,6 @@ public class DistinctSubsequencesApp {
         DistinctSubsequencesSolver solver = new DistinctSubsequencesSolver();
         int result = solver.countDistinctSubsequences(s, t);
 
-        System.out.println("Número de subsecuencias distintas: " + result);
+        System.out.println("Número de subsecuencias distintas: " + result); // Debería imprimir 3
     }
 }
